@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contact Page | devChallenges.io</title>
+
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <nav class="wrapper--layout">
+        <img src="resources/Logo.svg" alt="Becv icon" class="logo">
+      </nav>
+
+      <main class="content">
+
+        <div class="wrapper--layout">
+
+          <header class="title-desc">
+            <h1 class="title">Interested in our business pricing?</h1>
+            <p class="descrip">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+          </header>
+
+          <form action="" class="contact--page">
+
+            <div class="form--item">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" placeholder="Ethan Johnson">
+            </div>
+
+            <div class="form--item">
+              <label for="email" class="form-label">Company Email</label>
+              <input type="text" id="name" name="name" placeholder="ethan@johnson.com">
+            </div>
+
+            <div class="form--item">
+              <label for="company" class="form-label">Company Size</label>
+
+              <select name="company-size" id="company-size" class="form-select">
+                <option value="small">50-100 employees</option>
+                <option value="large">100-500 employees</option>
+              </select>
+            </div>
+
+            <div class="form--item">
+              <label for="subject" class="form-label">Subject</label>
+              <select name="subject" id="company-size" class="form-select">
+                <option value="small">Building Landing pages</option>
+                <option value="large">Building Sales pages</option>
+              </select>
+            </div>
+
+            <div class="form--item full--form">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" rows="8" maxlength="100" class="form-textarea" placeholder="50-100 employees"></textarea>
+            </div>
+
+            <div class="form--item full--form">
+              <button type="submit" class="contact-btn">Contact Sales</button>
+            </div>
+
+          </form>
+
+        </div>
+      </main>
+
+      <div class="author-info">
+        Coded by <a href="#">Brenda Magg</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
